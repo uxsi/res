@@ -1,0 +1,225 @@
+# (media)
+# (Music)
+# > Deezer
+USER-AGENT,Deezer*,media
+DOMAIN-SUFFIX,deezer.com,media
+DOMAIN-SUFFIX,dzcdn.net,media
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com,media
+DOMAIN-SUFFIX,kkbox.com.tw,media
+DOMAIN-SUFFIX,kfs.io,media
+# > JOOX
+USER-AGENT,WeMusic*,media
+USER-AGENT,JOOX*,media
+DOMAIN-SUFFIX,joox.com,media
+# > Pandora
+USER-AGENT,Pandora*,media
+DOMAIN-SUFFIX,pandora.com,media
+# > SoundCloud
+USER-AGENT,SoundCloud*,media
+DOMAIN-SUFFIX,p-cdn.us,media
+DOMAIN-SUFFIX,sndcdn.com,media
+DOMAIN-SUFFIX,soundcloud.com,media
+# > Spotify
+USER-AGENT,Spotify*,media
+DOMAIN-SUFFIX,pscdn.co,media
+DOMAIN-SUFFIX,scdn.co,media
+DOMAIN-SUFFIX,spotify.com,media
+DOMAIN-SUFFIX,spoti.fi,media
+DOMAIN-KEYWORD,spotify.com,media
+DOMAIN-KEYWORD,-spotify-com,media
+# > TIDAL
+USER-AGENT,TIDAL*,media
+DOMAIN-SUFFIX,tidal.com,media
+# > YouTubeMusic
+USER-AGENT,com.google.ios.youtubemusic*,media
+USER-AGENT,YouTubeMusic*,media
+# (Video)
+# > All4
+USER-AGENT,All4*,media
+DOMAIN-SUFFIX,c4assets.com,media
+DOMAIN-SUFFIX,channel4.com,media
+# > AbemaTV
+USER-AGENT,AbemaTV*,media
+DOMAIN-SUFFIX,abema.io,media
+DOMAIN-SUFFIX,ameba.jp,media
+DOMAIN-SUFFIX,abema.tv,media
+DOMAIN-SUFFIX,hayabusa.io,media
+DOMAIN,abematv.akamaized.net,media
+DOMAIN,ds-linear-abematv.akamaized.net,media
+DOMAIN,ds-vod-abematv.akamaized.net,media
+DOMAIN,linear-abematv.akamaized.net,media
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,media
+USER-AGENT,Prime%20Video*,media
+DOMAIN-SUFFIX,aiv-cdn.net,media
+DOMAIN-SUFFIX,aiv-delivery.net,media
+DOMAIN-SUFFIX,amazonvideo.com,media
+DOMAIN-SUFFIX,primevideo.com,media
+DOMAIN,avodmp4s3ww-a.akamaihd.net,media
+DOMAIN,d25xi40x97liuc.cloudfront.net,media
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,media
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,media
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,media
+DOMAIN-KEYWORD,avoddashs,media
+# > Bahamut
+USER-AGENT,Anime*,media
+DOMAIN-SUFFIX,bahamut.com.tw,media
+DOMAIN-SUFFIX,gamer.com.tw,media
+DOMAIN,gamer-cds.cdn.hinet.net,media
+DOMAIN,gamer2-cds.cdn.hinet.net,media
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*,media
+DOMAIN-SUFFIX,bbc.co.uk,media
+DOMAIN-SUFFIX,bbci.co.uk,media
+DOMAIN-KEYWORD,bbcfmt,media
+DOMAIN-KEYWORD,uk-live,media
+# > DAZN
+USER-AGENT,DAZN*,media
+DOMAIN-SUFFIX,dazn.com,media
+DOMAIN-SUFFIX,dazn-api.com,media
+DOMAIN,d151l6v8er5bdm.cloudfront.net,media
+DOMAIN-KEYWORD,voddazn,media
+# > Disney+
+USER-AGENT,Disney+*,media
+DOMAIN-SUFFIX,bamgrid.com,media
+DOMAIN-SUFFIX,disney-plus.net,media
+DOMAIN-SUFFIX,disneyplus.com,media
+DOMAIN-SUFFIX,dssott.com,media
+DOMAIN,cdn.registerdisney.go.com,media
+# > encoreTVB
+USER-AGENT,encoreTVB*,media
+DOMAIN-SUFFIX,encoretvb.com,media
+DOMAIN,edge.api.brightcove.com,media
+DOMAIN,bcbolt446c5271-a.akamaihd.net,media
+# > FOX NOW
+USER-AGENT,FOX%20NOW*,media
+DOMAIN-SUFFIX,fox.com,media
+DOMAIN-SUFFIX,foxdcg.com,media
+DOMAIN-SUFFIX,theplatform.com,media
+DOMAIN-SUFFIX,uplynk.com,media
+# > HBO NOW
+USER-AGENT,HBO%20NOW*,media
+DOMAIN-SUFFIX,hbo.com,media
+DOMAIN-SUFFIX,hbogo.com,media
+DOMAIN-SUFFIX,hbonow.com,media
+# > HBO GO HKG
+USER-AGENT,HBO%20GO%20PROD%20HKG*,media
+DOMAIN-SUFFIX,hbogoasia.com,media
+DOMAIN-SUFFIX,hbogoasia.hk,media
+DOMAIN,bcbolthboa-a.akamaihd.net,media
+DOMAIN,players.brightcove.net,media
+DOMAIN,s3-ap-southeast-1.amazonaws.com,media
+DOMAIN,dai3fd1oh325y.cloudfront.net,media
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,media
+DOMAIN,hboasia1-i.akamaihd.net,media
+DOMAIN,hboasia2-i.akamaihd.net,media
+DOMAIN,hboasia3-i.akamaihd.net,media
+DOMAIN,hboasia4-i.akamaihd.net,media
+DOMAIN,hboasia5-i.akamaihd.net,media
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,media
+# > 华文电视
+USER-AGENT,HWTVMobile*,media
+DOMAIN-SUFFIX,5itv.tv,media
+DOMAIN-SUFFIX,ocnttv.com,media
+# > Hulu
+DOMAIN-SUFFIX,hulu.com,media
+DOMAIN-SUFFIX,huluim.com,media
+DOMAIN-SUFFIX,hulustream.com,media
+# > Hulu(フールー)
+DOMAIN-SUFFIX,happyon.jp,media
+DOMAIN-SUFFIX,hulu.jp,media
+# > ITV
+USER-AGENT,ITV_Player*,media
+DOMAIN-SUFFIX,itv.com,media
+DOMAIN-SUFFIX,itvstatic.com,media
+DOMAIN,itvpnpmobile-a.akamaihd.net,media
+# > KKTV
+USER-AGENT,KKTV*,media
+USER-AGENT,com.kktv.ios.kktv*,media
+DOMAIN-SUFFIX,kktv.com.tw,media
+DOMAIN-SUFFIX,kktv.me,media
+DOMAIN,kktv-theater.kk.stream,media
+# > Line TV
+USER-AGENT,LINE%20TV*,media
+DOMAIN-SUFFIX,linetv.tw,media
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,media
+# > LiTV
+DOMAIN-SUFFIX,litv.tv,media
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,media
+# > My5
+USER-AGENT,My5*,media
+DOMAIN-SUFFIX,channel5.com,media
+DOMAIN-SUFFIX,my5.tv,media
+DOMAIN,d349g9zuie06uo.cloudfront.net,media
+# > myTV SUPER
+USER-AGENT,mytv*,media
+DOMAIN-SUFFIX,mytvsuper.com,media
+DOMAIN-SUFFIX,tvb.com,media
+# > Netflix
+USER-AGENT,Argo*,media
+DOMAIN-SUFFIX,fast.com,media
+DOMAIN-SUFFIX,netflix.com,media
+DOMAIN-SUFFIX,netflix.net,media
+DOMAIN-SUFFIX,nflxext.com,media
+DOMAIN-SUFFIX,nflximg.com,media
+DOMAIN-SUFFIX,nflximg.net,media
+DOMAIN-SUFFIX,nflxso.net,media
+DOMAIN-SUFFIX,nflxvideo.net,media
+DOMAIN-SUFFIX,netflixdnstest0.com,media
+DOMAIN-SUFFIX,netflixdnstest1.com,media
+DOMAIN-SUFFIX,netflixdnstest2.com,media
+DOMAIN-SUFFIX,netflixdnstest3.com,media
+DOMAIN-SUFFIX,netflixdnstest4.com,media
+DOMAIN-SUFFIX,netflixdnstest5.com,media
+DOMAIN-SUFFIX,netflixdnstest6.com,media
+DOMAIN-SUFFIX,netflixdnstest7.com,media
+DOMAIN-SUFFIX,netflixdnstest8.com,media
+DOMAIN-SUFFIX,netflixdnstest9.com,media
+IP-CIDR,23.246.0.0/18,media
+IP-CIDR,37.77.184.0/21,media
+IP-CIDR,45.57.0.0/17,media
+IP-CIDR,64.120.128.0/17,media
+IP-CIDR,66.197.128.0/17,media
+IP-CIDR,108.175.32.0/20,media
+IP-CIDR,192.173.64.0/18,media
+IP-CIDR,198.38.96.0/19,media
+IP-CIDR,198.45.48.0/20,media
+# > niconico
+USER-AGENT,Niconico*,media
+DOMAIN-SUFFIX,dmc.nico,media
+DOMAIN-SUFFIX,nicovideo.jp,media
+DOMAIN-SUFFIX,nimg.jp,media
+DOMAIN-SUFFIX,socdm.com,media
+# > PBS
+USER-AGENT,PBS*,media
+DOMAIN-SUFFIX,pbs.org,media
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,media
+DOMAIN-SUFFIX,phprcdn.com,media
+DOMAIN-SUFFIX,pornhub.com,media
+DOMAIN-SUFFIX,pornhubpremium.com,media
+# > 台湾好
+USER-AGENT,TaiwanGood*,media
+DOMAIN-SUFFIX,skyking.com.tw,media
+DOMAIN,hamifans.emome.net,media
+# > Twitch
+DOMAIN-SUFFIX,twitch.tv,media
+DOMAIN-SUFFIX,twitchcdn.net,media
+DOMAIN-SUFFIX,ttvnw.net,media
+DOMAIN-SUFFIX,jtvnw.net,media
+# > ViuTV
+USER-AGENT,Viu*,media
+USER-AGENT,ViuTV*,media
+DOMAIN-SUFFIX,viu.com,media
+DOMAIN-SUFFIX,viu.tv,media
+DOMAIN,api.viu.now.com,media
+DOMAIN,d1k2us671qcoau.cloudfront.net,media
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,media
+DOMAIN,dfp6rglgjqszk.cloudfront.net,media
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,media
+USER-AGENT,YouTube*,media
+DOMAIN-SUFFIX,googlevideo.com,media
+DOMAIN-SUFFIX,youtube.com,media
+DOMAIN,youtubei.googleapis.com,media
