@@ -1,0 +1,60 @@
+# (HTTP and SOCKS5 in one port)
+mixed-port: 7890
+# RESTful API for clash
+external-controller: 127.0.0.1:9090
+allow-lan: false
+mode: rule
+log-level: warning
+
+proxies:
+  # http
+  - name: "mptest"
+    type: http
+    server: 139.199.171.252
+    port: 8095
+  - name: "mplocalhome"
+    type: http
+    server: 192.168.0.17
+    port: 8095
+  # trojan
+  - name: "x"
+    type: trojan
+    server: x.xushengni.info
+    port: 443
+    password: Nzhi000396
+  - name: "xs"
+    type: trojan
+    server: xs.xushengni.info
+    port: 443
+    password: Nzhi000396
+
+proxy-groups:
+  - name: proxy
+    type: select
+    proxies:
+      - mptest
+      - x
+      - xs
+  - name: mp
+    type: select
+    proxies:
+      - mptest
+      - mplocalhome
+      - DIRECT
+      - REJECT
+  - name: final
+    type: select
+    proxies:
+      - mptest
+      - proxy
+      - DIRECT
+      - REJECT
+
+rules:
+  - DOMAIN-SUFFIX,google.com,proxy
+  - DOMAIN-KEYWORD,google,proxy
+  - DOMAIN,google.com,proxy
+  - DOMAIN-SUFFIX,mp.weixin.qq.com,mp
+  - DOMAIN-SUFFIX,res.wx.qq.com,mp
+  - DOMAIN-KEYWORD,qq,mp
+  - MATCH,final
