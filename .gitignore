@@ -1,0 +1,11 @@
+.idea
+*.swp
+._.DS_Store
+.DS_Store
+.history
+node_modules/
+npm-debug.log
+package-lock.json
+__pycache__
+task.list
+pingtunnel*.log

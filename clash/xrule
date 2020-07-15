@@ -1,0 +1,4 @@
+hello:
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-KEYWORD,google
+  - DOMAIN,google.com
