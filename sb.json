@@ -1,0 +1,16 @@
+{
+  "outbounds": [
+    {
+      "type": "trojan",
+      "server": "sora.iweb.plus",
+      "server_port": 443,
+      "password": "Nzhi000396",
+      "tls": {
+        "enabled": true,
+        "server_name": "sora.iweb.plus"
+      }
+    }
+  ],
+  "route": {
+  }
+}

@@ -1,0 +1,37 @@
+HOST, api.revenuecat.com, chats
+HOST, browser-intake-datadoghq.com, chats
+HOST, static.cloudflareinsights.com, chats
+HOST-SUFFIX, ai.com, chats
+HOST-SUFFIX, algolia.net, chats
+HOST-SUFFIX, api.statsig.com, chats
+HOST-SUFFIX, auth0.com, chats
+HOST-SUFFIX, cdn.cloudflare.net, chats
+HOST-SUFFIX, challenges.cloudflare.com, chats
+HOST-SUFFIX, chatgpt.livekit.cloud, chats
+HOST-SUFFIX, client-api.arkoselabs.com, chats
+HOST-SUFFIX, events.statsigapi.net, chats
+HOST-SUFFIX, featuregates.org, chats
+HOST-SUFFIX, host.livekit.cloud, chats
+HOST-SUFFIX, identrust.com, chats
+HOST-SUFFIX, intercom.io, chats
+HOST-SUFFIX, intercomcdn.com, chats
+HOST-SUFFIX, launchdarkly.com, chats
+HOST-SUFFIX, oaistatic.com, chats
+HOST-SUFFIX, oaiusercontent.com, chats
+HOST-SUFFIX, observeit.net, chats
+HOST-SUFFIX, poe.com, chats
+HOST-SUFFIX, segment.io, chats
+HOST-SUFFIX, sentry.io, chats
+HOST-SUFFIX, stripe.com, chats
+HOST-SUFFIX, turn.livekit.cloud, chats
+HOST-KEYWORD, openai, chats
+HOST-KEYWORD, chatgpt, chats
+HOST-KEYWORD, oai, chats
+IP-CIDR, 24.199.123.28/32, chats
+IP-CIDR, 64.23.132.171/32, chats
+IP-ASN, 20473, chats
+HOST-SUFFIX, gravatar.com, chats
+
+HOST-KEYWORD, coze, global
+HOST-SUFFIX, cici.com, global
+
