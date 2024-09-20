@@ -166,19 +166,12 @@ proxies:
     port: 8098
 
   # ss
-  - name: "jms1"
-    type: ss
-    server: c62s1.jjcruises.com
-    port: 8675
-    cipher: aes-256-gcm
-    password: "DM6GP5uTtCfARpbt"
-
-  - name: "jms2"
-    type: ss
-    server: c62s2.jjcruises.com
-    port: 8675
-    cipher: aes-256-gcm
-    password: "DM6GP5uTtCfARpbt"
+  #- name: "jms1"
+  #  type: ss
+  #  server: c62s1.jjcruises.com
+  #  port: 8675
+  #  cipher: aes-256-gcm
+  #  password: "DM6GP5uTtCfARpbt"
 
   # Trojan
   - name: "open"
@@ -240,126 +233,6 @@ proxies:
     #   - h2
     #   - http/1.1
     # skip-cert-verify: true
-
-  - name: "wgus1"
-    type: trojan
-    server: vghj3jxjlyczw3ycc8ii.7aksxyqj.com
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    port: 4023
-    sni: oss-cn-shanghai.aliyuncs.com
-    skip-cert-verify: true
-
-  - name: 'wgus2'
-    type: trojan
-    server: vghj3jxjlyczw3ycc8ii.7aksxyqj.com
-    port: 4024
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: oss-cn-shanghai.aliyuncs.com
-    skip-cert-verify: true
-    
-  - name: 'wgus3'
-    type: trojan
-    server: vghj3jxjlyczw3ycc8ii.7aksxyqj.com
-    port: 4026
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: oss-cn-shanghai.aliyuncs.com
-    skip-cert-verify: true
-  
-  - name: 'wgsg1'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4014
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: kdpdnpynmrhpq9ywvpoy.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wgsg2'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4015
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: uitgbudx4h7xvfxck6n8.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wgsg3'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4031
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: qbucr2q9m4d4girpjapf.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wghk1'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4016
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: vb4bvi7wspmnukftmhsd.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wghk2'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4017
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: hwuesfr8uohchqferap6.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wghk3'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4018
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: xkcegztzao8y3aakvdmj.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wgtw1'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4019
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: fs2dq3dh6vkairghetgx.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wgtw2'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4020
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: qgf6zqydrdwzb8ihrgpy.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wgtw3'
-    type: trojan
-    server: 8gykhl4coc8a9z3rtvpi.wgetapi.com
-    port: 4028
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: lmncc3jcuxvxe6v7bjzr.appletls.com
-    skip-cert-verify: true
-  
-  - name: 'wgjp1'
-    type: trojan
-    server: vghj3jxjlyczw3ycc8ii.7aksxyqj.com
-    port: 4021
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: oss-cn-shanghai.aliyuncs.com
-    skip-cert-verify: true
-  
-  - name: 'wgjp2'
-    type: trojan
-    server: vghj3jxjlyczw3ycc8ii.7aksxyqj.com
-    port: 4022
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: oss-cn-shanghai.aliyuncs.com
-    skip-cert-verify: true
-  
-  - name: 'wgjp3'
-    type: trojan
-    server: vghj3jxjlyczw3ycc8ii.7aksxyqj.com
-    port: 4030
-    password: 0b8e7026-dcdb-3314-980b-754cb0c99dd0
-    sni: oss-cn-shanghai.aliyuncs.com
-    skip-cert-verify: true
 
 proxy-groups:
   # select is used for selecting proxy or proxy group
@@ -1848,13 +1721,10 @@ rules:
 
   # > chats
   - DOMAIN,browser-intake-datadoghq.com, chats
-  - DOMAIN,static.cloudflareinsights.com, chats
   - DOMAIN-SUFFIX,ai.com, chats
   - DOMAIN-SUFFIX,algolia.net, chats
   - DOMAIN-SUFFIX,api.statsig.com, chats
   - DOMAIN-SUFFIX,auth0.com, chats
-  - DOMAIN-SUFFIX,cdn.cloudflare.net, chats
-  - DOMAIN-SUFFIX,challenges.cloudflare.com, chats
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud, chats
   - DOMAIN-SUFFIX,client-api.arkoselabs.com, chats
   - DOMAIN-SUFFIX,events.statsigapi.net, chats
@@ -1864,7 +1734,6 @@ rules:
   - DOMAIN-SUFFIX,intercom.io, chats
   - DOMAIN-SUFFIX,intercomcdn.com, chats
   - DOMAIN-SUFFIX,launchdarkly.com, chats
-  - DOMAIN-SUFFIX,oaistatic.com, chats
   - DOMAIN-SUFFIX,oaiusercontent.com, chats
   - DOMAIN-SUFFIX,observeit.net, chats
   - DOMAIN-SUFFIX,poe.com, chats
@@ -1873,6 +1742,8 @@ rules:
   - DOMAIN-SUFFIX,stripe.com, chats
   - DOMAIN-SUFFIX,turn.livekit.cloud, chats
   - DOMAIN-KEYWORD,openai, chats
+  - DOMAIN-KEYWORD,chatgpt, chats
+  - DOMAIN-KEYWORD,oaistatic, chats
   - DOMAIN-KEYWORD,oai, chats
   - DOMAIN-KEYWORD,chatgpt, chats
   - IP-CIDR,24.199.123.28/32, chats
@@ -1883,6 +1754,12 @@ rules:
   # chats/global
   - DOMAIN-KEYWORD,coze, global
   - DOMAIN-SUFFIX,cici.com, global
+  - DOMAIN,static.cloudflareinsights.com, global
+  - DOMAIN-SUFFIX,cdn.cloudflare.net, global
+  - DOMAIN-SUFFIX,challenges.cloudflare.com, global
+
+  # docker
+  - DOMAIN-SUFFIX,docker.com, global
 
   # Local Area Network
   - IP-CIDR,192.168.0.0/16,DIRECT

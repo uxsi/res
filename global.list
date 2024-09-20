@@ -563,3 +563,5 @@ DOMAIN-SUFFIX,x-art.com,global
 DOMAIN-SUFFIX,yimg.com,global
 DOMAIN,api.steampowered.com,global
 DOMAIN,store.steampowered.com,global
+# > docker
+DOMAIN-SUFFIX,docker.com,global
